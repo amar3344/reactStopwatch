@@ -1,0 +1,92 @@
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  background-size: cover;
+  height: 100vh;
+  width: 70%;
+  padding: 30px;
+}
+
+.button-container {
+  padding: 10px;
+}
+
+.heading {
+  font-size: 50px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #333333;
+}
+
+.react-app {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.reset-button {
+  background-color: #eaa800;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  width: 60px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.stopwatch-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  width: 250px;
+  height: 250px;
+}
+
+.start-button {
+  background-color: #1db05f;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  width: 60px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.stop-button {
+  background-color: #ef0d36;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  color: #fff;
+  width: 60px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.timer-image {
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+.timer-text {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #333333;
+}
+
+.timer-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
